@@ -1,0 +1,21 @@
+
+header{
+    background-color: #4b4075;
+    text-align: center;
+    margin: 30px auto;
+  }
+  
+  footer{
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#4b4075;
+    color: #3498db;
+    text-align: center;
+    height: 40px;
+    margin-top: 50px;
+    line-height: 40px;
+    opacity: 1;
+  }

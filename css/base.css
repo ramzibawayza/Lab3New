@@ -1,0 +1,57 @@
+@import 'reset.css';
+
+body{
+width: 960px;
+margin: 0 auto;
+background: beige;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border: 5px solid #4b4075;
+  border-radius: 25%;
+  margin: 15px;
+  transition: 0.8s;
+  opacity: .7;
+}
+.mouflen img{
+    margin-top: 40px;
+}
+
+h1{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 40px;
+  color: #3498db;
+  transition: 0.8s;
+}
+h1:hover{
+transform: scale(1.2);
+}
+h2{
+  font-family: cursive;
+  font-size: 20px;
+  color: #3498db;
+  transition: 0.8s;
+}
+h2:hover{
+transform: scale(1.2);
+color: #4b4075;
+
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  overflow: auto; 
+}
+
+img:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  margin-bottom: 30px;
+  border: 5px solid #3498db;
+
+}

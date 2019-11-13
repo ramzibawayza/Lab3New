@@ -1,0 +1,29 @@
+select{
+    display: block;
+    margin: 0 auto;
+    transition: 0.8s;
+  }
+
+  select:hover{
+      background-color: #3498db;
+  }
+
+
+  #photo-template:first-child {
+      display: none;
+  }
+  div{
+    float: left;
+    border: 1px solid #4b4075;
+    max-height: 350px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    width: 30%;
+    height: 350px;
+    margin-bottom: 60px;
+}
+p{
+    margin-top: -10px;
+    width: 100%;
+}
